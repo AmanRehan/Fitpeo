@@ -76,7 +76,7 @@ function App() {
                 <div className='col-3'>
                 <div id='info-card' class="card mb-3 d-flex justify-content-center align-items-center">
                     <div class="row g-0">
-                      <div class="col justify-content-middle">
+                      <div class="col d-flex justify-content-center align-items-center ">
                         <img src={wallet} class="img-fluid rounded-start" alt="money.png"/>
                       </div>
                       <div class="col">
@@ -92,7 +92,7 @@ function App() {
                 <div className='col-3'>
                 <div id='info-card' class="card mb-3 d-flex justify-content-center align-items-center">
                     <div class="row g-0">
-                      <div class="col justify-content-middle">
+                      <div class="col d-flex justify-content-center align-items-center ">
                         <img src={agree} class="img-fluid rounded-start" alt="money.png"/>
                       </div>
                       <div class="col">
@@ -108,7 +108,7 @@ function App() {
                 <div className='col-3'>
                 <div id='info-card' class="card mb-3 d-flex justify-content-center align-items-center">
                     <div class="row g-0">
-                      <div class="col justify-content-middle">
+                      <div class="col d-flex justify-content-center align-items-center ">
                         <img src={economics} class="img-fluid rounded-start" alt="money.png"/>
                       </div>
                       <div class="col">
