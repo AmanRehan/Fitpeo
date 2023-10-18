@@ -42,7 +42,7 @@ function App() {
             </div>
           </div>
 
-          <div id='dash' className='col-10 overflow-auto'>
+          <div id='dash' className='col-10'>
             <div id='header-name' className='col'>
               <div  className='row m-3 d-flex justify-content-between align-items-center'>
                 <div className='col-2 name'><b>Hello Aman,</b></div>
