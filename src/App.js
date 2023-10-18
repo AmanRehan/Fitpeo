@@ -10,10 +10,10 @@ import agree from './agree.png'
 
 function App() {
   return (
-    <div className="">
-      <div className='container-fluid'>
+    <div className="my-div">
+      <div className='container-fluid overflow-auto'>
         <div id='view' className='row'>
-          <div id='sidebar' className='col-2 border border-primary d-flex justify-content-center text-center'>
+          <div id='sidebar' className='col-2 d-flex justify-content-center text-center'>
             <div className='container-fluid justify-content-center text-white'>
               <div className='row my-4 '> 
                 <h3>

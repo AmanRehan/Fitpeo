@@ -2,6 +2,8 @@ body,html, #root{
   height: 100vh;
 }
 
+
+
 .App {
   text-align: center;
   height:100%;
@@ -12,7 +14,8 @@ body,html, #root{
 }
 
 #sidebar{
-height: 100vh;
+height: auto;
+position:-webkit-sticky;
 }
 
 #info-card{
@@ -56,11 +59,11 @@ width: 300px;
 }
 
 #profile{
-  margin-top: 20rem;
+  margin-top: 12rem;
 }
 
 #dashOptions{
-  margin-top: 12rem !important;
+  margin-top: 4rem !important;
 }
 
 #sidebar{
