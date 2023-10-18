@@ -1,38 +1,74 @@
+body,html, #root{
+  height: 100vh;
+}
+
 .App {
   text-align: center;
+  height:100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#dash{
+  background-color: rgb(242, 242, 242);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#sidebar{
+height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#info-card{
+  height: 12rem;
 }
 
-.App-link {
-  color: #61dafb;
+#dash2{
+  height: 23rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#barimg{
+  height: 300px;
+  padding-left: 40px;
+}
+
+#pieimg{
+height: 300px;
+width: 300px;
+}
+
+#customimg{
+  height: 30px;
+  width: auto;
+  border-radius: 100%;
+}
+
+#profile{
+  height: fit-content;
+  width: auto ;
+  border-radius: 100%;
+}
+
+#profileDesignation{
+  text-align: start !important;
+  padding-left: 0;
+}
+
+#profileTitle{
+  text-align: start !important;
+  padding-left: 0;
+}
+
+#profile{
+  margin-top: 20rem;
+}
+
+#dashOptions{
+  margin-top: 12rem !important;
+}
+
+#sidebar{
+  background-color: rgb(21, 7, 112);
+}
+
+.listing{
+  background-color: rgb(21, 7, 112) !important;
+  border-style:none !important;
+
 }
